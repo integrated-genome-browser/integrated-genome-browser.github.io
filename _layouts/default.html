@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!--[if IE 9]>
+<html class="ie9 no-focus"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html class="no-focus"> <!--<![endif]-->
+
+{% include head.html %}
+
+<body>
+<div id="page-container" class="header-navbar-fixed header-navbar-transparent">
+    {% include header.html %}
+
+
+    <div id="page-container" class="side-scroll header-navbar-fixed header-navbar-transparent">
+
+        {% include mobile-header.html %}
+
+        <main id="main-container">
+            <!-- Hero Content -->
+            <div class="bg-primary-dark">
+                <section class="content content-full content-boxed overflow-hidden">
+                    <!-- Section Content -->
+                    <div class="push-100-t push-50 text-center">
+                        <h1 class="h2 text-white push-10 visibility-hidden" data-toggle="appear"
+                            data-class="animated fadeInDown">Integrated Genome Browser</h1>
+
+                        <h2 class="h5 text-white-op visibility-hidden" data-toggle="appear"
+                            data-class="animated fadeInDown">Visualization for genomic-scale data</h2>
+                    </div>
+                    <!-- END Section Content -->
+                </section>
+            </div>
+            <!-- END Hero Content -->
+
+            <!-- Classic Content -->
+            <section class="content content-boxed">
+                <!-- Section Content -->
+                <div class="push-50-t push-50">
+                    <div class="row">
+                        <div class="col-md-3">
+                            {% include side-navigation.html %}
+                        </div>
+                        <div class="col-md-9">
+                            {{ content }}
+                        </div>
+
+                    </div>
+                </div>
+                <!-- END Section Content -->
+            </section>
+            <!-- END Classic Content -->
+
+            <!-- Get Started -->
+            <div class="bg-primary-dark">
+                <section class="content content-full content-boxed">
+                    <!-- Section Content -->
+                    <div class="push-20-t push-20 text-center">
+                        <h3 class="h4 text-white-op push-20 visibility-hidden" data-toggle="appear">Do you like our
+                            stories? Sign up today and get access to over <strong>10.000</strong> travel stories!</h3>
+                        <a class="btn btn-rounded btn-noborder btn-lg btn-success visibility-hidden"
+                           data-toggle="appear" data-class="animated bounceIn" href="frontend_pricing.html">Get Started
+                            Today</a>
+                    </div>
+                    <!-- END Section Content -->
+                </section>
+            </div>
+            <!-- END Get Started -->
+        </main>
+
+
+    </div>
+
+    {% include footer.html %}
+</div>
+</body>
+
+</html>

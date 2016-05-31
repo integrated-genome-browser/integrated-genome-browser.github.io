@@ -1,0 +1,14 @@
+# Site settings
+title: IGB Blog
+email: contact@lorainelab.org
+description: > # The Integrated Genome Browser Blog
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+twitter_username: igb
+github_username:  igb
+
+# Build settings
+markdown: kramdown
+gems: [jekyll-paginate, rouge]
+paginate: 10
+paginate_path: "/pages/page:num/"
