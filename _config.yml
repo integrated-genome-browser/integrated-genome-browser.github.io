@@ -9,6 +9,6 @@ github_username:  igb
 
 # Build settings
 markdown: kramdown
-gems: [jekyll-paginate, rouge]
-paginate: 10
-paginate_path: "/pages/page:num/"
+gems: [rouge]
+#paginate: 10
+#paginate_path: "/pages/page:num/"
